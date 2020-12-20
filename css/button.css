@@ -14,8 +14,6 @@
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
 }
 
 .button-red:hover {
