@@ -1,0 +1,32 @@
+.button {
+  background-color: gray;
+}
+
+.button-red {
+  background-color: red;
+  display: inline-block;
+}
+
+.button, .button-red {
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button-red:hover {
+  background-color: red;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.button:hover, .button-red:hover {
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,20 @@
+.form {
+  max-width: 700px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+textarea, input[type=text] {
+  width: 80%;
+  resize: vertical;
+  padding:15px;
+  margin:10px 0;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+textarea {
+  height:150px;
+}
