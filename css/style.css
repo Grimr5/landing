@@ -20,6 +20,14 @@ html, body {
   margin-right: auto;
 }
 
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 .header-logo {
   background-color: white;
   display: flex;

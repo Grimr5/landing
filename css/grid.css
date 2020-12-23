@@ -15,6 +15,19 @@
   flex-wrap: wrap;
 }
 
+@media all and (max-width: 800px) {
+  .container {
+    margin:10px auto 5px;
+  }
+
+  .column_1-4 {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+  }
+}
+
 @media all and (max-width: 640px) {
   .column_1-2 {
     flex-direction: column;
