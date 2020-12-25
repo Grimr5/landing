@@ -161,9 +161,6 @@ a {
     max-width: 100%;
   }
 
-  .advantage small {
-    font-size: 11px;
-  }
 }
 
 @media all and (max-width: 375px) {
@@ -173,5 +170,9 @@ a {
 
   .intro h2 {
     font-size: 15px;
+  }
+
+  .advantage small {
+    font-size: 11px;
   }
 }
