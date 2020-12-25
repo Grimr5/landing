@@ -100,7 +100,7 @@ a {
 }
 
 .small-text {
-  margin-top: 6px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 12px;
 }
@@ -110,7 +110,6 @@ a {
 }
 
 .advantage, .service, .feedback, .form {
-  margin-top: 10px;
   background-color: rgb(245, 246 ,248);
   padding: 20px;
 }
@@ -160,6 +159,10 @@ a {
 
   .form, textarea {
     max-width: 100%;
+  }
+
+  .advantage small {
+    font-size: 11px;
   }
 }
 
