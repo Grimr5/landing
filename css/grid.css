@@ -24,7 +24,7 @@
     display: block;
     margin: auto;
     width: 50%;
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -43,6 +43,7 @@
   .column_1-4 {
     width: auto;
     float: none;
+    max-height: 200px;
     text-align: center;
   }
 }
